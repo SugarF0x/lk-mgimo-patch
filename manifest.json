@@ -10,8 +10,11 @@
         "https://lk.mgimo.ru/*"
       ],
       "js": [
-        "index.js"
+        "init.js"
       ]
     }
+  ],
+  "web_accessible_resources": [
+    "fix/*"
   ]
 }
