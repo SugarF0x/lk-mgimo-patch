@@ -3,3 +3,4 @@
  */
 import scrollbarFix from "./scrollbar.js"
 import antiplagiat from "./antiplagiat.js"
+import home from "./home.js"
