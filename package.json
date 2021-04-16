@@ -1,0 +1,24 @@
+{
+  "name": "lk-mgimo-patch",
+  "version": "0.1.0",
+  "description": "Chrome Extension to fix several of the many LK MGIMO bugs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SugarF0x/lk-mgimo-patch.git"
+  },
+  "keywords": [
+    "mgimo",
+    "lk-mgimo",
+    "bugfix"
+  ],
+  "author": "Sugar_F0x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SugarF0x/lk-mgimo-patch/issues"
+  },
+  "homepage": "https://github.com/SugarF0x/lk-mgimo-patch#readme"
+}

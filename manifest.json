@@ -1,0 +1,17 @@
+{
+  "name": "LK MGIMO Patch",
+  "version": "1.0.0",
+  "version_name": "1.0.0",
+  "description": "Fix some of the many LK MGIMO bugs",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://lk.mgimo.ru/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
