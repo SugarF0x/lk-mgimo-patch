@@ -16,6 +16,17 @@ if (window.location.pathname.includes('antiplagiat')) {
    */
   document.querySelector('.table-flex-head > div:nth-of-type(5)')?.remove()
 
+  /**
+   * Flip table order to display latest entries on top
+   * Works only on Files Table
+   */
+  if (window.location.pathname === '/antiplagiat') {
+    const table = document.querySelector('.table-flex-body')
+    const children = Array.from(table.children).reverse()
+    table.innerHTML = ''
+    children.forEach(e => table.appendChild(e))
+  }
+
   console.log('[LMP] Antiplagiat table fixed')
 }
 
