@@ -50,6 +50,13 @@ if (window.location.pathname.includes('antiplagiat')) {
       }
     `
     document.querySelector('head').appendChild(style)
+
+    /**
+     * Bolden copy percentage & cut excess numbers
+     */
+    const percentageText = card.children[2].children[1]
+    const percent = parseFloat(percentageText.innerText.split(' ').find(e => parseInt(e)).replace(',','.'))
+    percentageText.innerHTML = `Процент заимствований включая цитирования: <b>${Math.round(percent*100)/100}%</b>`
   }
 
   console.log('[LMP] Antiplagiat table fixed')
